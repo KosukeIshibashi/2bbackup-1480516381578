@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: 2bbackup
+  host: 2bbackup
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
